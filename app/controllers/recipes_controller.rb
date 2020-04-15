@@ -1,12 +1,12 @@
 class RecipesController < ApplicationController
     def index
         @recipes = Recipe.all
-        render json: @recipes, include: :whats_for_dinner_bot
+        render json: @recipes
     end 
 
     def show
         @recipe = Recipe.find(params[:id])
-        render json: @recipe, include: :whats_for_dinner_bot
+        render json: @recipe
     end
 
     def create

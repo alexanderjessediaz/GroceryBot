@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :users, only: [:create]
+  resources :users, only: [:create, :index]
   post "login", to: "authentication#login"
   resources :recipes, only: [:index, :show, :create]
   resources :ingredients
