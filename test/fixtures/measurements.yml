@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teaspoon: MyString
+  tablespoon: MyString
+  cup: MyString
+  pound: MyString
+  ounces: MyString
+  pint: MyString
+  quart: MyString
+  gallon: MyString
+  recipe: one
+
+two:
+  teaspoon: MyString
+  tablespoon: MyString
+  cup: MyString
+  pound: MyString
+  ounces: MyString
+  pint: MyString
+  quart: MyString
+  gallon: MyString
+  recipe: two
