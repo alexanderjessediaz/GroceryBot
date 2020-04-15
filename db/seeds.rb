@@ -1,4 +1,8 @@
-Measurement.destroy_all
+Teaspoon.destroy_all
+Tablespoon.destroy_all
+Cup.destroy_all
+Ounce.destroy_all
+Pound.destroy_all
 Ingredient.destroy_all
 Recipe.destroy_all
 
@@ -11,12 +15,12 @@ one_and_one_half_tps = Teaspoon.create(measurement:1.5)
 two_tsp = Teaspoon.create(measurement:2.0)
 
 #measurements tablespoon
-one_fourth_cup = Cup.create(measurement:0.25)
 one_tbsp = Tablespoon.create(measurement:1.0)
 one_and_one_half_tbsp = Tablespoon.create(measurement:1.5)
 two_tbsps = Tablespoon.create(measurement:2.0)
 
 #measurements cup
+one_fourth_cup = Cup.create(measurement:0.25)
 one_third_cup = Cup.create(measurement:0.33)
 half_cup = Cup.create(measurement:0.5)
 one_cup = Cup.create(measurement:1.0)
@@ -38,8 +42,8 @@ one_small_white_onion = Ingredient.create(name:"small white onion")
 two_medium_carrots = Ingredient.create(name:"two medium carrots")
 one_red_pepper = Ingredient.create(name:"red pepper")
 ginger = Ingredient.create(name:"ginger")
-two_cloves_garlic Ingredient.create(name:"two cloves of garlic")
-minced_garlic Ingredient.create(name:"minced garlic")
+two_cloves_garlic = Ingredient.create(name:"two cloves of garlic")
+minced_garlic = Ingredient.create(name:"minced garlic")
 red_pepper_flakes = Ingredient.create(name:"red pepper flakes")
 brown_rice = Ingredient.create(name:"brown rice")
 spinach = Ingredient.create(name:"spinach")
